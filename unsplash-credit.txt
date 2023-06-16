@@ -1,0 +1,21 @@
+
+Web Dev
+Photo by <a href="https://unsplash.com/@jstrippa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Harrison</a> on <a href="https://unsplash.com/photos/vpOeXr5wmR4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Books
+Photo by <a href="https://unsplash.com/ko/@otutunaru?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olga Tutunaru</a> on <a href="https://unsplash.com/images/things/book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+Podcast
+Photo by <a href="https://unsplash.com/@jonathanvez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Velasquez</a> on <a href="https://unsplash.com/photos/c1ZN57GfDB0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Newsletter
+Photo by <a href="https://unsplash.com/@mathyaskurmann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathyas Kurmann</a> on <a href="https://unsplash.com/photos/fb7yNPbT0l8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Blog
+Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/photos/xG8IQMqMITM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+Helpful in figuring out how to make the navabar sticky: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp 
+BUT
+the code referenced is outdated so I had to consult MDN: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener

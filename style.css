@@ -1,0 +1,202 @@
+:root {
+    /* Colors */
+    --primary-gray: #292f3d;
+    --primary-white: whitesmoke;
+    --secondary-green: rgb(51, 183, 183);
+    --secondary-gray: #a7a7a7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BASE STYLES */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: var(--primary-white);
+    color: var(--primary-gray);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--secondary-green);
+}
+
+.link:hover {
+    color: white;
+    border-bottom: 1px solid var(--secondary-green);
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 92vh;
+    border-bottom: 3px solid var(--secondary-green);
+    background: no-repeat url(./assets/anthony.jpg) fixed center / cover;
+}
+
+.header__title {
+    color: var(--primary-white);
+    background-color: var(--primary-gray);
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid var(--secondary-green);
+    padding: .25em 0;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    color: var(--primary-white);
+    background-color: var(--primary-gray);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .68rem;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item {
+    margin: 0 .5rem;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid var(--secondary-green);
+}
+
+
+/* CONTENT */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-bottom: 3px solid var(--secondary-green);
+    padding-top: 7vh;
+}
+
+.hero__link {
+    text-decoration: none;
+    background-color: var(--primary-gray);
+    color: var(--primary-white);
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    box-shadow: 5px -5px var(--secondary-green);
+}
+
+.hero__link:hover {
+    background-color: var(--primary-white);
+    color: var(--primary-gray);
+    box-shadow: 5px 5px var(--secondary-green);
+}
+
+#web-dev {
+    background: no-repeat url(./assets/web-dev.jpg) fixed center / cover;  
+}
+
+#web-dev__portfolio {
+    margin-right: 1.5em;
+}
+
+#books {
+    background: no-repeat url(./assets/books.jpg) fixed center / cover;
+}
+
+#podcast {
+    background: no-repeat url(./assets/podcast.jpg) fixed center / cover;
+}
+
+#blog {
+    background: no-repeat url(./assets/blog.jpg) fixed center / cover;
+}
+
+#newsletter {
+    background: no-repeat url(./assets/newsletter.jpg) fixed center / cover;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    color: var(--primary-white);
+    padding: 2em 0;
+    background-color: var(--primary-gray);
+    border-top: 3px solid var(--secondary-green);
+}
+
+.connections__title {
+    font-size: 1rem;
+    margin-bottom: .75em;
+}
+
+.contact {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--secondary-green);
+    margin-right: .5rem;
+}
+
+.contact:hover {
+    color: var(--primary-white);
+}
+
+.copyright {
+    margin: 1.5em 0 .5em;
+    font-size: .8rem;
+}
+
+
+@media (min-width: 800px) {
+    .header__title {
+        font-size: 2.5rem;
+    }
+
+    .navbar {
+        font-size: 1.25rem;
+    }
+
+    .hero__link {
+        font-size: 1.5rem;
+    }
+
+    .connections__title {
+        font-size: 1.5rem;
+    }
+
+    .contact {
+        font-size: 2rem;
+    }
+}
