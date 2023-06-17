@@ -104,7 +104,7 @@ body {
     align-items: center;
     height: 100vh;
     border-bottom: 3px solid var(--secondary-green);
-    padding-top: 7vh;
+    padding: 8vh 0;
 }
 
 .hero__link {
